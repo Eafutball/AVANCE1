@@ -1,0 +1,326 @@
+.Encabezado {
+  background-color: red;
+  padding: 10px 0;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+.Encabezado {
+  background-color: red;
+  padding: 10px 0;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.imagen-logo {
+  height: fit-content;
+  width: fit-content;
+  object-fit: contain;
+}
+
+.options {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.options li {
+  margin-left: 20px;
+}
+
+.options li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.options li a:hover {
+  color: gold;
+}
+
+.options {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.options li {
+  margin-left: 20px;
+}
+
+.options li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.options li a:hover {
+  color: gold;
+}
+
+main {
+  width: min(95%, 600px);
+  background-color: red;
+  border-radius: 16px;
+  display: flex;
+  font: 400 18px "italic", "sans-serif"; 
+  color: black;
+  position: relative;
+  top: 7px;
+  margin: 0 auto; 
+}
+.imagen-logo{
+    width: 200px;
+    height: 150px;
+}
+.descripcion p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+ }
+ .descripcion{
+    margin: auto;
+    font-size: 24px
+ }
+ .descripcion h2{
+    text-align: center;
+ }
+
+ body{
+    background-color: red;
+ }
+ hr{
+    background-color: black;
+    opacity: 0.4;
+    border-style: double;
+    height: 3px;
+ }
+ .title-two{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gold;
+ }
+
+ div.gallery {
+    border: 1px solid black;
+  }
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: gold; /* Un tono de oro más oscuro */
+}
+  * {
+    box-sizing: border-box;
+  }
+  .container {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+
+  }
+
+  .icon-bar {
+    width: 100%; /* Full-width */
+    overflow: auto; /* Overflow due to float */
+  }
+  
+  .icon-bar a {
+    float: inline-start; 
+    text-align: center; 
+    width: 20%; 
+    padding: 12px 0; 
+    transition: all 0.3s ease; 
+    color: black; 
+    font-size: 36px; 
+  }
+
+   footer h1{
+    text-align: center;
+    color: black;
+   }
+   footer{
+    padding-top: 3.5px;
+   }
+
+
+
+
+/* Estilo para el encabezado del blog */
+#blog h1 {
+  text-align: center;
+  font-size: 2.5rem; /* Aumenta el tamaño de fuente a 40px */
+  margin-bottom: 2rem; /* Aumenta el margen inferior a 30px */
+  font-weight: bold; /* Agrega negrita al título */
+}
+
+/* Estilo para las categorías */
+.category {
+  margin-bottom: 3.125rem; /* Aumenta el margen inferior a 50px */
+}
+
+.category h2 {
+  font-size: 1.25rem; /* Aumenta el tamaño de fuente a 20px */
+  color: black; /* Cambia el color a un gris más oscuro */
+  border-bottom: 2px solid black; /* Cambia el color del borde inferior */
+  padding-bottom: 0.625rem; /* Aumenta el espaciado inferior a 10px */
+  margin-bottom: 1.25rem; /* Aumenta el margen inferior a 20px */
+  text-align: center;
+}
+
+.blog-post h3 {
+  font-size: 1.25rem; /* Aumenta el tamaño de fuente a 20px */
+  color: black; /* Cambia el color a un gris más oscuro */
+  margin-bottom: 0.625rem; /* Aumenta el margen inferior a 10px */
+  text-align: center;
+}
+
+.blog-post p {
+  color: black; /* Cambia el color a un gris más oscuro */
+  font-size: 1.25rem; /* Aumenta el tamaño de fuente a 20px */
+  line-height: 1.5;
+  text-align: justify; /* Alinea el texto justificadamente */
+}
+
+.blog-post a {
+  color: #ffd700; /* Cambia el color a un amarillo más brillante */
+  text-decoration: none;
+  font-weight: bold;
+  margin: 1rem auto 0; /* Agrega un margen superior de 16px y lo centra horizontalmente */
+  display: block;
+  text-align: center;
+}
+
+.blog-post a:hover {
+  text-decoration: underline;
+}
+
+.blog-post {
+  padding: 1.25rem; 
+  margin-bottom: 1.875rem; 
+  border-radius: 0.625rem; 
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2); 
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0.0625rem; 
+}
+
+
+
+
+
+/* Footer Styles */
+footer {
+  background-color: black;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  flex-basis: 25%;
+  padding: 0 20px;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.footer-column p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.footer-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-column li {
+  margin-bottom: 10px;
+}
+
+.footer-column a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-column a:hover {
+  color: gold;
+}
+
+.read-more {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.icon-bar a {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.icon-bar a:hover {
+  color: gold;
+}
+
+.footer-bottom {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer-bottom p {
+  margin-bottom: 10px;
+}
+
+
+
+
+  
+  
+ 
+
+
